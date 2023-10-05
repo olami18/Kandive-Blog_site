@@ -9,7 +9,8 @@ import Write from "./pages/Write";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { AuthContext } from "./context/authContext";
-
+import Protected from "./pages/Protected";
+import Menu from "./components/Menu";
 
 // Create a Layout component that defines the structure of the web page
 const Layout = () => {
